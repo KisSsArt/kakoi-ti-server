@@ -20,13 +20,10 @@ button {
 hr {
     border: 1px solid;
     color: #21262d;
-    border-radius: 20px;
     margin: 0; 
 }
 
 .navbar {
-    margin-left: -15px;
-    margin-right: -15px;
     margin-bottom: 0;
     background-color: rgb(1, 4, 9);
 }
