@@ -2,8 +2,8 @@ let current_question = 0;
 let questions = [
     // 0 //
     {
-        question: "question 1",
-        answers: ["ответ 1", "ответ 2"]
+        question: "Вы уважаете отечественное программное обеспечение?",
+        answers: ["Да!", "Нет.."]
     },
     // 1 //
     {

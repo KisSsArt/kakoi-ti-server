@@ -1,11 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() 
+function printCurrentQuestion()
 {
-    let option = document.createElement('div');
+    let div = document.createElement('div');
+    div.value = questions[current_question].question;
+    div.innerText = questions[current_question].question;
 
-    option.value = questions[current_question].question;
-    option.innerText = questions[current_question].question;
-
-    document.body.appendChild(option);
+    document.body.appendChild(div);
 
     for (let i = 0; i < 2; i++)
     {
@@ -19,4 +18,9 @@ document.addEventListener('DOMContentLoaded', function()
 
         document.body.appendChild(answer_button);
     }
+}
+
+document.addEventListener('DOMContentLoaded', function() 
+{
+    printCurrentQuestion();
 });
