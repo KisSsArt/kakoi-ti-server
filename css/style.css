@@ -9,11 +9,29 @@ body {
     text-align:  center;
 }
 
+.big_text {
+    width: 250px;
+    color: #ede6f3;
+    text-align:  center;
+}
+
 button {
-    color:#ede6f3;
-    outline-color: #21262d;
-    border: 1;
-    background-color: rgb(1, 4, 9);
+    color:rgb(201,209,217);
+    border: 1px solid;
+    border-color: rgb(54,59,66);
+    background-color: rgb(33, 38, 45);
+
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    border-color: rgb(139,148,158);
+    background-color: rgb(48, 54, 61);
 }
 
 .git-button {
@@ -32,4 +50,11 @@ hr {
 .navbar {
     margin-bottom: 0;
     background-color: rgb(1, 4, 9);
+}
+
+input {
+    background-color: #0d1117;
+    color: rgb(110 118 129);
+    margin: 100px;
+    width: 15%;
 }
