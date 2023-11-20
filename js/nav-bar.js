@@ -1,10 +1,10 @@
 function githubButton() 
 {
-    var button = document.createElement("button");
+    var button = document.createElement("git-button");
     button.title="git";
     button.ariaHidden = true;
     button.className = "git-button fa fa-github fa-3x";
-    button.addEventListener('click', function() { window.open("https://github.com/KisSsArt"); });
+    button.addEventListener('click', function() { document.location = "https://github.com/KisSsArt"; });
     document.getElementById("nav-form").appendChild(button);
 }
 
