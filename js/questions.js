@@ -1,4 +1,3 @@
-let current_question = 0;
 let questions = [
     // 0 //
     {
@@ -7,15 +6,15 @@ let questions = [
     },
     // 1 //
     {
-        question: "question 2",
-        answers: ["ответ 1", "ответ 2"]
+        question: "Вы трудны на подъем?",
+        answers: ["Да", "Нет"]
     },
     // 2 //
     {
         question: "question 3",
         answers: ["ответ 1", "ответ 2"]
     },
-    // 3 //
+    // 3 // 
     {
         question: "question 4",
         answers: ["ответ 1", "ответ 2"]
