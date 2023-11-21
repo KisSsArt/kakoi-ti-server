@@ -10,3 +10,5 @@ function setupGlobalVars(params)
     current_question = parseInt(params["current_question"]);
     result = parseInt(params["result"]);
 }
+
+let startText = "Иногда хочется на все забить и просто взять входящие запросы и весь день отклонять их. Ну или строить коварные планы о падении. Давай узнаем, какой ты сервер?";
