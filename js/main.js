@@ -31,7 +31,7 @@ function printResult()
     {
         case "kirill":
         case "кирилл":
-            final_result = 2;
+            final_result = 6;
             break;
         case "atom":
             final_result = 5;
