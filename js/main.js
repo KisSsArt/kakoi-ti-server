@@ -23,6 +23,13 @@ function parseGETarray()
     return new Array();
 }
 
+function newline()
+{
+    var br = document.createElement("br");
+    br.innerHTML = "<br>";
+    document.body.appendChild(br);
+}
+
 function printResult()
 {
     let final_result = parseInt((result / 4) / 2 - 1);
@@ -60,7 +67,7 @@ function printResult()
 
     let wiki = document.createElement('text');
     wiki.innerHTML = results[final_result].wiki + "<br>";
-    document.getElementById("centered_text").appendChild(wiki);
+    document.getElementById("wiki_text").appendChild(wiki);
 
     var startTestButton = document.createElement("button");
     startTestButton.textContent = "Пройти еще раз";
@@ -75,13 +82,6 @@ function getNewLocation(_start, _username, _current_question, _result)
             "username=" + _username + "&" +
             "current_question=" + _current_question.toString() + "&" +
             "result=" + _result.toString();
-}
-
-function newline()
-{
-    var br = document.createElement("br");
-    br.innerHTML = "<br>";
-    document.body.appendChild(br);
 }
 
 function printCurrentQuestion()

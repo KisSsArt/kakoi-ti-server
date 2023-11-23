@@ -96,8 +96,16 @@ input {
     height: 650px;
 }
 
-.center {
+.wikitext {
     text-align: justify;
+    margin: 0 auto;
+    width: 900px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.center {
+    text-align: center;
     margin: 0 auto;
     width: 900px;
     font-size: 20px;
