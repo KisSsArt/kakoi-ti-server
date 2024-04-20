@@ -32,7 +32,7 @@ function newline()
 
 function printResult()
 {
-    let final_result = parseInt((result / 4) / 2 - 1);
+    let final_result = parseInt((result + 0.5) / 4 - 1);
 
     switch (username.toLowerCase())
     {
